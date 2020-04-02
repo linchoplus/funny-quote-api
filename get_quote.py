@@ -20,7 +20,7 @@ with open(quotes_file) as json_file:
 def home():
     """API 'home' page with example"""
     return '''<h1> Funny Quotes API</h1>
-<p> http://127.0.0.1:5000/api/v1/quote</p>'''
+<p> <a href="http://127.0.0.1:5000/api/v1/quote">127.0.0.1:5000/api/v1/quote</p>'''
 
 
 @app.route('/api/v1/quote', methods=['GET'])
