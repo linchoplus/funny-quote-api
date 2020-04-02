@@ -1,0 +1,10 @@
+
+# Ignore everything
+/*
+
+# But not these files...
+!.gitignore
+!funny.json
+!requirements.txt
+!get_quote.py
+!README.md
